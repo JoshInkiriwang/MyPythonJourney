@@ -57,6 +57,5 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 This project is created by JoshInkiriwang or Joshua Verbiano Inkiriwang and licensed under the [MIT License](LICENSE).
 
 ---
-
 Have fun playing the CLI Guessing Game! If you have any questions or need assistance, please don't hesitate to ask.
 ```
