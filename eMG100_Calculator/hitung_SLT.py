@@ -7,17 +7,12 @@ def itungan_SLT(user_Input_SLT):
 
     lebih = user_Input_SLT - KSUS_DEFAULT_SLT
 
-    while(lebih > 0):
+    while(lebih >= MAX_CAPACITY_SLT_CARD):
         if counter % 2 == 0: 
             SLIB8_card += 1
-            lebih -= MAX_CAPACITY_SLT_CARD
         else:
             SLIU8_card += 1
-            lebih -= MAX_CAPACITY_SLT_CARD
-        
         counter += 1
+        lebih -= MAX_CAPACITY_SLT_CARD
 
-        return SLIB8_card, SLIU8_card
-
-    else :
-        return MIN_SLIB8, MIN_SLIU8
+    return SLIB8_card, SLIU8_card
