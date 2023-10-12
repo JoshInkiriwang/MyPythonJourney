@@ -11,12 +11,12 @@ def itungan_SLT(userInput):
     lebih = userInput - default
 
     while(lebih > 0):
-        SLIB8 += 1
-        lebih -= capacity_SLT
+        SLIB8 += 1 # Menggunakan satu card SLT (SLIB8)
+        lebih -= capacity_SLT # Dikurangi dengan kapasitas card SLIB8
 
         if lebih > 0 :
-            SLIU8 += 1
-            lebih -= capacity_SLT
+            SLIU8 += 1 # Menggunakan satu card SLT (SLIU8)
+            lebih -= capacity_SLT # Dikurangi dengan kapasitas card SLIU8
         else :
             break
         
