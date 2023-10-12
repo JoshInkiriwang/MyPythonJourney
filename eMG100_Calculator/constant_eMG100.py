@@ -18,5 +18,6 @@ MAX_CAPACITY_SLT_CARD = 8 # This is a capacity for SLIB8 and SLIU8
 
 # Section Card untuk CO-Line (Trunk Slot)
 MAX_CAPACITY_CO_CARD = 4 # This is a capacity for COIU4
-MAX_CO_CARD = 2 # Maximum number for COIU4
+MAX_COIU4 = 2 # Maximum number for COIU4
+MIN_COIU4 = 0 # Minimum number for COIU4
 
