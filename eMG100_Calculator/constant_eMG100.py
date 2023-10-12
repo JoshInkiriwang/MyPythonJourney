@@ -1,10 +1,14 @@
-THRESHOLD_MAX_KSUS = 2 # Hanya bisa extend ke 1 PABX
+# A maximum number for extend PBX
+THRESHOLD_MAX_KSUS = 2
 
-KSUS_DEFAULT_SLT = 6 # Slot Single Line Bawaan PABX
-KSUS_DEFAULT_DISPLAY = 2 # Slot Digital Bawaan PABX
-KSUS_DEFAULT_CO = 0 # Slot Line Bawaan PABX
+# This section is for default configuration of PBX 
+KSUS_DEFAULT_SLT = 6 # Default Single Line Telephone Slot for PBX
+KSUS_DEFAULT_DISPLAY = 2 # Default Digital Phone Slot for PBX
+KSUS_DEFAULT_CO = 0 # Default CO Line Slot for PBX
 
 # Section Card untuk Single Line Telephone
-MIN_SLIB8 = 0 # Ini card Induk dari SLIU8
-MIN_SLIU8 = 0 # Dipasang diatas SLIU8 atau DTIB8
-MAX_CAPACITY_SLT_CARD = 8
+MIN_SLIB8 = 0 # This is a main card for Single Line Telephone
+MIN_SLIU8 = 0 # SLIU8 can attach on SLIB8
+MAX_CAPACITY_SLT_CARD = 8 # This is a capacity for SLIB8 and SLIU8
+
+#
